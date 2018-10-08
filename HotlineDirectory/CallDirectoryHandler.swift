@@ -37,7 +37,7 @@ class CallDirectoryHandler: CXCallDirectoryProvider {
         // consider only loading a subset of numbers at a given time and using autorelease pool(s) to release objects allocated during each batch of numbers which are loaded.
         //
         // Numbers must be provided in numerically ascending order.
-        let phoneNumbers: [CXCallDirectoryPhoneNumber] = [ +48793330788 ]
+        let phoneNumbers: [CXCallDirectoryPhoneNumber] = [  ]
         for phoneNumber in phoneNumbers {
             context.addBlockingEntry(withNextSequentialPhoneNumber: phoneNumber)
         }
